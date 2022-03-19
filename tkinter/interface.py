@@ -11,15 +11,15 @@ altura_tela = app.winfo_screenheight()
 print(largura_tela, altura_tela)
 posx = largura_tela / 2 - largura / 2
 posy = altura_tela / 2 - altura / 2
-app.geometry("%dx%d+%d+%d" % (largura,altura, posx, posy))
+app.geometry("%dx%d+%d+%d" % (largura, altura, posx, posy))
 
-#app.geometry("600x300+400+200")
+# app.geometry("600x300+400+200")
 app.resizable(0, 0)
 
-#app.maxsize(600, 600)
-#app.minsize(200, 200)
-#app.state("zoomed")
-#app.state("iconic")
+# app.maxsize(600, 600)
+# app.minsize(200, 200)
+# app.state("zoomed")
+# app.state("iconic")
 
 app.iconbitmap("images/icon.ico")
 
